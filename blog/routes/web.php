@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DiaryController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -29,3 +31,13 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+
+Route::get('/', function () {
+    return ['Laravel' => app()->version()];
+});
+
+require __DIR__.'/auth.php';
+
+Route::get('/diary', [DiaryController::class, 'index']);
+Route::post('/diary/translate', [DiaryController::class, 'translate']);
