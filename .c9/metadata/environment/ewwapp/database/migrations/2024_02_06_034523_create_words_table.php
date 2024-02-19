@@ -1,0 +1,1 @@
+{"mime":"application/octet-stream","filter":false,"title":"2024_02_06_034523_create_words_table.php","tooltip":"/ewwapp/database/migrations/2024_02_06_034523_create_words_table.php","ace":{},"undoManager":{"mark":-1,"position":-1,"stack":[]},"timestamp":1707193001962,"hash":"6589431d17191c273a9b707ffa5d174ed20cd00b"}
